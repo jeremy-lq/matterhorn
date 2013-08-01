@@ -7,7 +7,9 @@ a Bernard configuration distributed around your hosts.
 
 Just download the code and install [Pynag](https://github.com/pynag/pynag).
 
-`pip install pynag`
+    sudo pip install pynag # to get the latest version
+    sudo yum install pynag # on redhat if you get at least 0.5.0
+    sudo apt-get install python-pynag pynag
 
 ## Usage
 
