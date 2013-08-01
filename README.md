@@ -15,11 +15,14 @@ Just download the code and install [Pynag](https://github.com/pynag/pynag).
 
 This script has to be run on the Nagios server host. It is going to load Nagios
 configuration from its default location (`/etc/nagios3/nagios.cfg`).
+
 To generate all the Bernard configuration files into the `/tmp` directory:
 
-`python main.py`
+    python main.py
+
+Then distribute the Bernard configuration files to the actual hosts.
 
 ## Limits
 
-Matterhorn mainly depends on the Pynag module. Which mean that Nagios configuration
-incompatible with Pynag won't work with Matterhorn.
+Matterhorn depends on the `pynag` module. Nagios configurations that
+are incompatible with Pynag won't work with Matterhorn.
