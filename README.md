@@ -12,7 +12,7 @@ Just download the code and install Pynag.
 ## Usage
 
 This script has to be run on the Nagios server host. It is going to load Nagios
-configuration from its default location.
+configuration from its default location (`/etc/nagios3/nagios.cfg`).
 To generate all the Bernard configuration files into the `/tmp` directory:
 
 `python main.py`
