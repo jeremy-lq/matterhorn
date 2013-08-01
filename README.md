@@ -5,7 +5,7 @@ a Bernard configuration distributed around your hosts.
 
 ## Installation
 
-Just download the code and install Pynag.
+Just download the code and install [Pynag](https://github.com/pynag/pynag).
 
 `pip install pynag`
 
