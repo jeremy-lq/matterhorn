@@ -65,10 +65,9 @@ class Host(object):
             command = service.get_effective_command_line()
             command = command.split()
             filename = command.pop(0)
-            args = ['"%s"' % c.replace('"', '\\"') for c in command]
             if command:
                 check_config = {
-                    'filename': command.pop(0),
+                    'filename': filename,
                     'args': command,
                 }
                 if notification:
